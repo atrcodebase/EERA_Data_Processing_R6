@@ -8,6 +8,13 @@ clean_data.tool2_for_client$data <- clean_data.tool2_for_client$data |>
       E6 == "8888" ~ "I don't know",
       TRUE ~ E6
     ),
+    N_Textbooks_Received = as.character(N_Textbooks_Received),
+    N_Textbooks_Received = case_when(
+      N_Textbooks_Received == "9999" ~ "Don't wish to respond",
+      N_Textbooks_Received == "8888" ~ "I don't know",
+      TRUE ~ N_Textbooks_Received
+    ),
+    
     
     
   )
