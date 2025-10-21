@@ -230,7 +230,49 @@ extra_cols.tool5 <- c(
   "SET-OF-Relevant_photos",
   
   # Surveyor Comments
-  "Surveyor_Comments",	"Surveyor_Comments_Translation"
+  "Surveyor_Comments",	"Surveyor_Comments_Translation",
+  
+  'Passcode_correct[1]/Valid_User[1]/School_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/C3_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/C11_1_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Useable_Toilets[1]/Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Useable_Toilets[2]/Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Useable_Toilets[3]/Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Relevant_photos[1]/Please_Add_Any_Relevant_Photo_caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Relevant_photos[2]/Please_Add_Any_Relevant_Photo_caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Useable_Toilets[4]/Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Useable_Toilets[5]/Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Non_Useable_Toilets[1]/Non_Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Non_Useable_Toilets[2]/Non_Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Non_Useable_Toilets[3]/Non_Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Relevant_photos[3]/Please_Add_Any_Relevant_Photo_caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Useable_Toilets[6]/Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Useable_Toilets[7]/Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Useable_Toilets[8]/Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Relevant_photos[4]/Please_Add_Any_Relevant_Photo_caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Relevant_photos[5]/Please_Add_Any_Relevant_Photo_caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Relevant_photos[6]/Please_Add_Any_Relevant_Photo_caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Relevant_photos[7]/Please_Add_Any_Relevant_Photo_caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Relevant_photos[8]/Please_Add_Any_Relevant_Photo_caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Relevant_photos[9]/Please_Add_Any_Relevant_Photo_caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Useable_Toilets[9]/Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Relevant_photos[10]/Please_Add_Any_Relevant_Photo_caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Useable_Toilets[10]/Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Useable_Toilets[11]/Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Non_Useable_Toilets[4]/Non_Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Non_Useable_Toilets[5]/Non_Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Non_Useable_Toilets[6]/Non_Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Non_Useable_Toilets[7]/Non_Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Non_Useable_Toilets[8]/Non_Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Relevant_photos[11]/Please_Add_Any_Relevant_Photo_caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Relevant_photos[12]/Please_Add_Any_Relevant_Photo_caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Relevant_photos[13]/Please_Add_Any_Relevant_Photo_caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Relevant_photos[14]/Please_Add_Any_Relevant_Photo_caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Relevant_photos[15]/Please_Add_Any_Relevant_Photo_caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Useable_Toilets[12]/Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Useable_Toilets[13]/Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Useable_Toilets[14]/Useable_Toilet_Photo_Caption',
+  'Passcode_correct[1]/Valid_User[1]/Consent_Group[1]/Infrastructure_and_WASH__Enumerator_Observations[1]/Useable_Toilets[15]/Useable_Toilet_Photo_Caption'
 )
 
 extra_cols.tool4 <- c(
@@ -322,7 +364,12 @@ extra_cols.tool3 <- c(
   # FDE COLUMN
   "FDE_C1A3", "FDE_C1A4_Male", "FDE_C1A4_Female", "FDE_C1A5_Male", "FDE_C1A5_Female", "FDE_C1A6_Male", "FDE_C1A6_Female", "FDE_Overall_Present_Male_Students_Today", "FDE_Number_Of_Absent_Male_Students_Today",
   "FDE_Overall_Present_Female_Students_Today", "FDE_Number_Of_Absent_Female_Students_Today", "FDE_Overall_Present_Male_Students_LastWeek", "FDE_Number_Of_Absent_Male_Students_LastWeek",
-  "FDE_Overall_Present_Female_Students_LastWeek", "FDE_Number_Of_Absent_Female_Students_LastWeek", "FDE_E6A11", "FDE_E6A12", "FDE_E6A21", "FDE_E6A22", "FDE_E6A31", "FDE_E6A32"
+  "FDE_Overall_Present_Female_Students_LastWeek", "FDE_Number_Of_Absent_Female_Students_LastWeek", "FDE_E6A11", "FDE_E6A12", "FDE_E6A21", "FDE_E6A22", "FDE_E6A31", "FDE_E6A32",
+  'Passcode_correct[1]/Class1_N_Sample',	'Passcode_correct[1]/Class2_N_Sample',	'Passcode_correct[1]/Class3_N_Sample',
+  'Passcode_correct[1]/Class4_N_Sample',	'Passcode_correct[1]/Class5_N_Sample',	'Passcode_correct[1]/Class6_N_Sample',
+  'Passcode_correct[1]/Class7_N_Sample',	'Passcode_correct[1]/Class8_N_Sample',	'Passcode_correct[1]/Class9_N_Sample',
+  'Passcode_correct[1]/Class10_N_Sample',	'Passcode_correct[1]/Class11_N_Sample',	'Passcode_correct[1]/Class12_N_Sample'
+  
 )
 
 
