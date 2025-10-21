@@ -1,5 +1,5 @@
 # Organization:   ATR
-# Date:           June 2025
+# Date:           Sept 2025
 # Script:         EERA Data Processing (Round 5)
 # Author:         ATR Data Management Department
 
@@ -17,10 +17,13 @@ if(!require(atRfunctions)) remotes::install_github("atrcodebase/atRfunctions")
 Coalesce = function(var) ifelse(is.na(var), 0, var)
 
 # Declaring Global Variables ---------------------------------------------------
-data_collection_start_date_ps = as.Date("13.09.2025", format("%d.%m.%Y")) # Confirm with QAT
-data_collection_start_date_cbe = as.Date("13.09.2025", format("%d.%m.%Y")) # Confirm with QAT
+# data_collection_start_date_ps = as.Date("13.09.2025", format("%d.%m.%Y")) # For R6 - Sept
+# data_collection_start_date_cbe = as.Date("13.09.2025", format("%d.%m.%Y")) # For R6 - Sept
+data_collection_start_date_ps = as.Date("12.10.2025", format("%d.%m.%Y")) #  For R6 - Oct
+data_collection_start_date_cbe = as.Date("12.10.2025", format("%d.%m.%Y")) #  For R6 - Oct
 # data_collection_end_date = as.Date("16.05.2024",  format("%d.%m.%Y"))
-qa_sheet_url_ps = "https://docs.google.com/spreadsheets/d/1MRc8MACq80fLE4rt6TS8z5FfeZNdf-E0nfGSD5H9bjM/edit?gid=473078450#gid=473078450"
+# qa_sheet_url_ps = "https://docs.google.com/spreadsheets/d/1MRc8MACq80fLE4rt6TS8z5FfeZNdf-E0nfGSD5H9bjM/edit?gid=473078450#gid=473078450" # For september
+qa_sheet_url_ps = "https://docs.google.com/spreadsheets/d/1WrS5GFTLpB6m8aqm-QLZleLWU37NNbjOg1mmAllH_0A/edit?gid=473078450#gid=473078450"
 # qa_remarks_url = "https://docs.google.com/spreadsheets/d/1aCjwYFRctOIbgfCLrf2cFXXYmCd_JhSaGmajl5srcz8/edit?gid=1487655797#gid=1487655797"
 
 
@@ -36,7 +39,8 @@ relevancy_files_path = list.files("input/relevancy_files/", full.names = T) %>% 
 meta_cols <- c("Site_Visit_ID", "EMIS_School_ID_CBE_KEY", "School_CBE_Name", "IP_Name", "Region", "Province", "District", "Area_Type", "Type_Of_School_CBE_Based_On_The_Sample", "School_CBE_Gender_Based_On_The_Sample", "School_Type_SV", "School_Gender_SV")
 meta_cols.qa_sheet <- c(Visit_ID = "Site_Visit_ID", "School Code", "Sample_Type", Survey_Date = "SubmissionDate", Region = "Region", "KEY")
 
-r6_dcd <- as.POSIXct("2025-09-13", format = "%Y-%m-%d", tz = "UTC")
+# r6_dcd <- as.POSIXct("2025-09-13", format = "%Y-%m-%d", tz = "UTC") # R6 - Sept
+r6_dcd <- as.POSIXct("2025-10-12", format = "%Y-%m-%d", tz = "UTC") # R6 - Oct
 
 # Read inputs ------------------------------------------------------------------
 # Data sets
