@@ -514,7 +514,7 @@ repeat_sheet_issues <- rbind(
     
     # 4
     compare_row_counts(
-      supposed_count_df = select(clean_data.tool8$data |> filter(Monitoring_Before_After_Exam %in% c(1, "1")), KEY, supposed_row_count = E2),
+      supposed_count_df = select(clean_data.tool8$data |> filter(Monitoring_Before_After_Exam %in% c(1, "1", 3, "3")), KEY, supposed_row_count = E2),
       child_df = clean_data.tool8$Section_2_2_4_Headcount,
       child_sheet_name = "Section_2_2_4_Headcount"
     ) |> mutate(Row_count_from_tab = "data", Row_count_column_name = "E2"),
@@ -575,7 +575,7 @@ repeat_sheet_issues <- rbind(
     
     # 11
     compare_row_counts(
-      supposed_count_df = select(clean_data.tool8$data |> filter(Y3 == 2), KEY, supposed_row_count = Y4_N),
+      supposed_count_df = select(clean_data.tool8$data |> filter(Y3_2 == 1), KEY, supposed_row_count = Y4_N),
       child_df = clean_data.tool8$Subjects_Added,
       child_sheet_name = "Subjects_Added"
     ) |> mutate(Row_count_from_tab = "data", Row_count_column_name = "Y4_N")
